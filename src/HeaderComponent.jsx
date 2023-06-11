@@ -1,10 +1,10 @@
 
-const Header = () =>  {
-    const headerTitle = 'headeraaaaa';
 
+const Header = (props) =>  {
     return <div>
-        <p>{headerTitle}</p>
-        <p>home</p>
+        <p>header</p>
+        <p>{props.infoHeader}</p>
+        <p>{props.headerSize}</p>
     </div>
 }
 

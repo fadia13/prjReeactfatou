@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// le fichier index.js c'est le point d'entré de notre application 
+// ce fichier importe le composant App et il a mis dans le div id="root"
+// du coup toute notre application sera dans le composant App
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
